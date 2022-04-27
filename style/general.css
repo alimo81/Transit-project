@@ -58,7 +58,7 @@ nav {
     background-color: rgb(124, 124, 124);
     padding: 0.5em 1.3em;
     border-radius: 6px;
-    opacity: 0.8;
+    opacity: 0.7;
 }
 
 #open-menu,
@@ -96,7 +96,7 @@ nav {
     width: 100%;
 }
 
-main {
+#first-main {
     padding: 4em 1.1em;
     display: flex;
     flex-direction: column;
@@ -104,7 +104,7 @@ main {
     background-color: #F5F5F5;
 }
 
-#main-head {
+.main-head {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -112,15 +112,15 @@ main {
     margin-bottom: 50px;
 }
 
-#main-head h2 {
+.main-head h2 {
     color: #474747;
     font-weight: 900;
-    font-size: 2.3em;
+    font-size: 2.1em;
     line-height: 1.5em;
     margin-bottom: 17px;
 }
 
-#main-head p {
+.main-head p {
     color: #474747a6;
     font-size: 1.2em;
     letter-spacing: 0px;
@@ -160,4 +160,68 @@ main {
 
 .box-contents {
     line-height: 1.8em;
+}
+
+#secound-main {
+    padding: 4em 1.1em 0 1.1em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#main-secound-head {
+    margin-top: 20px;
+}
+
+.main-line {
+    background-color: #F5F5F5;
+    width: 100%;
+    height: 4px;
+}
+
+#profiles-box {
+    padding: 4em 0 0 0;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.profile-boxes {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-bottom: 48px;
+}
+
+.profile-boxes h4 {
+    text-align: left;
+    font-weight: 900;
+    font-size: 1.1em;
+}
+
+.profile-boxes p {
+    text-align: left;
+    margin-top: 7px;
+}
+
+.profile-img {
+    border-radius: 1000px;
+    margin: 0 16px 0 0;
+}
+
+#main-end-content {
+    padding: 4em 1.5em;
+}
+
+#main-end-content p {
+    font-size: 1em;
+    line-height: 1.7em;
+    margin-bottom: 48px;
+}
+
+#main-end-content button {
+    width: 100%;
+    font-size: 1.4em;
+    font-weight: 900;
 }
