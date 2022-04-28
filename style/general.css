@@ -275,3 +275,13 @@ form button {
 form button:hover {
     background-color: #444751 !important;
 }
+
+#credit {
+    padding: 4em 0;
+    background-color: #343741;
+}
+
+#credit p {
+    color: rgba(255, 255, 255, 0.308);
+    line-height: 1.5em;
+}
