@@ -148,7 +148,18 @@ nav {
     align-items: center;
     justify-content: center;
     margin-bottom: 20px;
-    background-color: #389fc2;
+}
+
+#blue-icon {
+    background-color: #3CADD4;
+}
+
+#green-icon {
+    background-color: #ADD43C;
+}
+
+#red-icon {
+    background-color: #D43C61;
 }
 
 .box-headers {
